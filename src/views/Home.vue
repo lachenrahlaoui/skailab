@@ -10,9 +10,7 @@
 
         <team />
         
-        <!--
-            <contactUs />
-        -->
+        <contactUs />
         
         <foots />
 
@@ -30,26 +28,25 @@ import projects from "@/components/projects.vue";
 import goals from "@/components/goals.vue";
 
 import team from "@/components/team.vue";
-/*
-    import contactUs from "@/components/contactUs.vue";
-*/
+
+import contactUs from "@/components/contactUs.vue";
+
 import foots from "@/components/foots.vue";
 
 export default {
-  name: "Home",
-  components: {
-    navbar,
-    discover,
+    name: "Home",
+    components: {
+        navbar,
+        discover,
 
-    projects,
-    goals,
+        projects,
+        goals,
 
-    team,
-    
-    /*
+        team,
+        
         contactUs,
-    */
-    foots,
-  },
+        
+        foots,
+    },
 };
 </script>
