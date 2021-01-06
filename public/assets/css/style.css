@@ -1,0 +1,595 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-size: 19px;
+    font-family: "Open Sans", sans-serif;
+
+}
+
+
+/************** BIGIN NAVBAR  ************************/
+
+
+/************** BEGIN DROP DOWN  ***********************/
+
+
+.skailogo {
+    margin-top: 25px;
+    width: 110px;
+    height: 50px;
+}
+/** --------------- BEGIN humberger style ----------- */
+.navbar-toggler{
+    background : #efefef;
+    margin-right : 20px ; 
+}
+
+.navbar-toggler span
+{
+    display: block;
+    width: 25px;
+    height: 4px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative;
+    background: red;
+    border-radius: 3px;
+}
+
+/** --------------- END humberger style ----------- */
+
+
+/*************** END DROP DOWN **********************/
+
+
+/************* BEGIN navbar modfications ************/
+.navbar-fixed-top{
+    position:fixed;
+    right:0;
+    left:0;
+    z-index:1030;
+    background-color: rgba(250, 54, 76, 0.6) !important;
+
+    transition: all 550ms linear;
+}
+
+/** ---------------for changing the navbar color after scrolling ----------- */
+.navbar-fixed-top.scrolled {
+    background-color: rgba(240, 54, 76, 0.9) !important;
+    margin-top: -0.5em !important;
+    transition: all 550ms linear;
+}
+
+
+.navbar-expand-lg  {
+
+    padding: auto;
+    height: 6em;
+    
+    /*  ?  what does this suppose to do here in this class 
+        ?  background: linear-gradient rgba(240,255,0,1); 
+    ? */ 
+
+    /*//  background: transparent;    */
+    /*//  border-color: transparent;  */
+
+    color: #ffffff;
+}
+
+.navbar-expand-lg .navbar-nav{
+    margin: auto;
+}
+
+.navbar-expand-lg  .navbar-nav li  a {
+    color: #ffffff;
+    margin: 0.5em 2em 0.5em 2em;
+}
+
+
+.inputbox {
+    width:80px;
+    padding:0px 8px;
+    font-size: 20px;
+    font-weight: 1000;
+    background: transparent;
+    border: none;
+    color: #fff;
+
+} 
+/*
+.inputbox:hover,
+.inputbox::after,
+.inputbox::before,
+.inputbox:focus {
+    border: none;
+}
+*/
+/************** End navbar modification ************/
+/************** begin  introduction  modification ************/
+
+.home-sec {
+    padding-top: 130px;
+    background: linear-gradient(15.67deg, rgba(233, 59, 36, 0.6),rgba(170, 44, 157, 0.167)),url("../../data/img/bigbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+}
+
+.home-sec-content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.bigbrand {
+    margin: 10%;
+    width:50%;
+    height:auto;
+}
+
+.intro-text {
+    font-size: 27px;
+    color: #ffffff;
+}
+
+.discoverBtn {
+    border: 0.5px solid;
+    border-radius: 43px;
+    color: rgb(234, 83, 113);
+    background-color: #ffffff;
+    
+    width: 250px;
+    height: 68px;
+    
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 40px;
+    margin-bottom: 5em;
+    box-shadow: 0px 2px 15px 0px rgb(228, 228, 228);
+}
+
+/************** End introduction modification ************/
+
+
+/** *********** start discover modifications ***********/
+
+.the-section{
+    margin-top: 4rem;
+    margin-bottom: 8rem;
+}
+
+.center-title {
+    margin-bottom: 2.5rem;
+    text-align: center;
+}
+.center-title h3 {
+    font-size: 35px;
+    font-weight:600;
+    text-transform: uppercase;
+}
+
+.discover-title {
+    font-size: 30px;
+    margin-bottom : 40px;
+    font-weight: bold;
+}
+
+
+.discover-text {
+    width: 400px;
+    color: #000;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+
+/**---------------start video modifications --------------*/
+
+
+.the-video{
+    width: 100%;
+    /* 
+        border: 1px solid black;
+        border-bottom: 2px solid black ;
+    */
+}
+
+
+
+/*  
+.videob .play-btn{
+    background: rgb(252,64,101);
+    padding: 1em;
+    width: 70px;
+    height: 70px;
+    
+    text-align: center;
+    border-radius: 50%;
+    
+    margin-left:-35px;
+    background-repeat:no-repeat;
+    position:absolute;
+    left:-5%;
+    right:100%;
+    top:0%;
+    bottom:0px;
+    margin:auto;
+    background-size:contain;
+    background-position: center; 
+}
+
+.videob .play-btn i{
+    line-height: 70px;
+    margin-left: 5px; 
+}
+
+.videob .play-btn:before,.videob .play-btn:after{
+    content:"";
+    border: 2px solid;
+    border-radius: 50%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    box-shadow:1px 1px 10px 0px rgb(252,64,101);
+}
+
+.fan-play{
+    color : #fff ;
+    font-size:15px;
+}
+
+.play-btn{
+    width:120px;
+    height:60px;
+    margin-left:35px;
+    display:block;
+    background-color:gray;
+    color:white;
+    color:rgb(252,64,101);
+    border: 0.5px solid;
+    /* outline:none;  / 
+    cursor: pointer;
+}
+*/
+
+
+/**---------------- End video modifications ---------------*/
+
+/*************** END disover modifications  *******************/
+
+
+/*************** start projects modifications  ****************/ 
+
+.mlr-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.w-66{
+    width: 66%;
+    max-width: 66%;
+}
+
+@media (max-width: 100px) {
+    .w-66{
+        width: 90%;
+        max-width: 90%;
+    }
+}
+
+
+
+
+.projects-list {
+    padding: 1.4em ;
+    list-style: none;
+}
+.projects-list  li a, .projects-list  li:hover  a{
+    color: #000;
+}
+.projects-list  li:hover{
+    text-decoration: underline;
+}
+
+.projects-list  .fa-link{
+    font-size: 0.8em;
+    margin-left: 0.4em;
+}
+
+.redpoint::before {
+    content: "•";
+    color: red;
+    display: inline-block;
+    width: 1em;
+    font-size: 2.1em;
+}
+
+/************* ENd projects modifications *************/ 
+
+/************* start Goals odifications ***************/
+.cardimg {
+    width: 200px;
+}
+
+.inside-card-1,.inside-card-2,.inside-card-3{
+
+    position: absolute;
+    bottom: -70px;
+    right: 13px;
+    background-color: white;
+
+    color: black;
+    padding: 20px 30px;
+
+    width: 310px;
+    height: 290px;
+    box-shadow: 10px 10px 10px 0px rgb(210, 210, 210);
+    border-radius: 8px;
+    text-align: center;
+}
+.titleInCard {
+    font-weight: 700;
+    font-size: 17px;
+    text-align: center;
+}
+.textInCard {
+    font-weight: normal;
+    font-size: 14px;
+    text-align: center;
+}
+a.link-read-more {
+    font-size: 12px;
+    text-align: center;
+    cursor: pointer ;  
+    color:  #ED4C5C !important;
+    font-weight: 800;
+}
+
+a.link-read-more:hover{
+    text-decoration: underline;
+}
+
+.team-img-img {
+    border-radius: 50%; 
+    padding: 20px;
+    background-image: linear-gradient(  to top, rgb(232, 59, 39), rgb(222, 74, 111)  );
+    width: 180px;
+    height: 180px;
+}
+
+
+
+
+
+
+
+.imgs {
+    padding: 50px;
+}
+
+.sparator {
+    height: 50px;
+}
+
+.inp {
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    padding: 17px;
+    margin: 20px;
+    border: 2px solid;
+    border-radius: 10px;
+    width: 100%;
+    resize: none;
+}
+
+textarea {
+    height: 190px;
+}
+.textemail {
+    max-width:390px;
+    inline-size: 425px;
+    font-size: 1.1em;
+}
+
+
+@media (max-width: 938px) {
+    .textemail{
+        max-width:390px;
+        inline-size: 425px;
+        font-size: 1.1em;
+    }
+}
+
+.lastone {
+    background: linear-gradient(to left, rgb(197, 40, 69), rgb(118, 45, 59));
+    padding: 60px 50px 50px 0px;
+    color: #ffffff;
+}
+
+.adclas {
+    font-weight: 700;
+    font-size: 22px;
+}
+.coclas {
+    padding-top: 55px;
+    line-height: 35px;
+    width: 250px;
+    font-size: 21px;
+}
+.copclas {
+    padding-top: 50px;
+    font-size: 24px;
+}
+
+.toclas {
+    font-size: 20px;
+    font-weight: 600;
+}
+.emclas {
+    font-size: 17px;
+    padding-top: 50px;
+}
+.fontclas {
+    padding-top: 50px;
+}
+
+.fan-icon {
+    font-size: 42px;
+    color: #ffffff;
+    padding-right: 50px;
+}
+
+.f_logo {
+    padding-top: 25px;
+    width: 180px;
+    height: auto;
+}
+
+.padd {
+    padding-top: 70px;
+}
+
+.center1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.the-section header p  {
+    padding: 1em;
+}
+
+footer {
+    height: 100%;
+}
+
+.dropdownxx {
+    margin-top: -5px;
+}
+
+
+
+
+select option {
+    color: #000 !important;
+    padding: 30px;
+}
+
+
+
+.pageclip-form__submit{
+    padding: 13px 34px;
+
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    margin: 20px;
+    resize: none;
+
+    background: linear-gradient(180deg, #da454b 0%, #e63b6e 100%);
+    border: none;
+    border-radius: 6px;
+    color: #fff;
+}
+
+
+/* fonts section */
+#projects{
+    background: #FAFAFA;
+}
+
+
+
+.first-row{
+    margin-bottom: 200px;
+}
+
+/* goals section */
+#goals{
+    margin-bottom: 12rem;
+}
+
+#goals .text-muted{
+    color: #363636 !important;
+    font-weight: 300;
+
+}
+
+/* team section */
+
+
+
+
+/* contact us */
+#contact .h1{
+    font-weight: 600;
+}
+/* footer section */
+
+.font-social a {
+    color: white;
+    font-size: 2em;
+}
+
+.font-social{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: 70%;
+    
+}
+
+
+/* spacing */
+.m-em-4{
+    margin-bottom: 2em;
+}
+
+
+/* ! for mobile */ 
+
+@media (max-width: 938px) {
+    .bigbrand  {
+        width:45%;
+    }
+    .intro-brand {
+        font-size: 24px;
+    }
+
+}
+@media (max-width: 798px) {
+    .bigbrand  {
+        width:40%;
+    }
+    .intro-brand {
+        font-size: 21px;
+    }
+}
+@media (max-width: 534px) {
+    /*.bigbrand  {
+        width:30%;
+    }*/
+    .intro-brand {
+        font-size: 19px;
+    }
+}
+
+
+
+
+
+
+
+
+/* ! END mobile   */ 
+
+
+
+
+
+
+.col{
+    margin-top :20px;
+}
