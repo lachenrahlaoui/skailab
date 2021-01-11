@@ -70,19 +70,63 @@
 .l-grid-team {
     display : grid; 
     grid-template-columns: 50% 50%;
+    
+
 }
-.l-grid-item{
-    background-color: yellow;
+/*.l-grid-item{
+    background-color: green;
     display : grid; 
     grid-template-columns: 60% 40%;
-    margin: 2em 1em;
+    margin: 2em 0.3em;
+    
+}*/
+
+.l-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.team-img , .team-names{
 
+.margin-padding{
+     
+    margin:1em 0;
+    padding-top: 0.5em;
+}
+ 
 
+.team-img-img {
+    border-radius: 50%; 
+    padding: 20px;
+    background-image: linear-gradient(  to top, rgb(232, 59, 39), rgb(222, 74, 111)  );
+    width: 180px;
+    height: 180px;    
+}
+
+.team-names{
+    float: right;
+    display:inline-block;
+    
+    width: 250px;
+    margin: 35px 20px;
 }
 
 
+
+
+
+
+.no-grid-container{
+    display: grid;
+    grid-template-columns: 35% auto;
+}
+
+
+/*
+        for phone 
+
+
+
+*************************/
 
 @media (max-width: 1224px) {
     .grid-cards{

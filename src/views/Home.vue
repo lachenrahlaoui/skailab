@@ -29,6 +29,7 @@ import goals from "@/components/goals.vue";
 
 import team from "@/components/team.vue";
 
+
 import contactUs from "@/components/contactUs.vue";
 
 import foots from "@/components/foots.vue";
