@@ -14,9 +14,8 @@
             <!--end div 9-->
             <!-- start div 10 -->
             <section class="container">
-                <div class="row">
-                    <div class="col-sm-5">
-                        <br>
+                <div class="no-grid-container">
+                    <div>
                         <h1 class="m-em-4 h1">
                             Leave an E-mail<br>
                         </h1>
@@ -26,23 +25,23 @@
                         </div>
                     </div>
 
-                    <div class="col-sm-7">
+                    <div class="">
                         <form action="https://send.pageclip.co/e7NFMeFC0p25DKOpLN8kQnXCarSW3DsG/contact" class="pageclip-form" method="post">
-                            <div class="row">
-                                <div class="col-sm-12">
+                             
+                                <div class="">
                                     <input class="inp" placeholder="Your E-mail adress" name="email" type="email"
                                         required>
                                 </div>
-                                <div class="col-sm-12">
+                                <div class="">
                                     <textarea class="inp" name="body"
                                         placeholder="write your lettre here"></textarea>
                                 </div>
-                                <div class="col-sm-12">
+                                <div class="">
                                     <button class="pageclip-form__submit" type="submit">
                                         <span>submit now</span>
                                     </button>
                                 </div>
-                            </div>
+                            
                         </form>
                     </div>
                 </div>
