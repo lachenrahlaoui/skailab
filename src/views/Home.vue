@@ -6,6 +6,9 @@
         <discover />
 
         <projects />
+        
+        <conferences/>
+
         <goals />
 
         <team />
@@ -25,6 +28,9 @@ import navbar from "@/components/navbar.vue";
 import discover from "@/components/discover.vue";
 
 import projects from "@/components/projects.vue";
+
+import conferences from "@/components/conferences.vue";
+
 import goals from "@/components/goals.vue";
 
 import team from "@/components/team.vue";
@@ -41,6 +47,7 @@ export default {
         discover,
 
         projects,
+        conferences,
         goals,
 
         team,

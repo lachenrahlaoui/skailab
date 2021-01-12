@@ -121,6 +121,43 @@
 }
 
 
+
+.c-card{
+    height: 25em;
+    box-shadow: 0px 2px 15px 5px rgb(228, 228, 228);
+    border-radius: 8px ;
+    margin: 10px;
+}
+.c-card-body {
+    height:20em;
+    max-height:20em;
+    
+}
+.c-card-body p{
+
+    font-size: 18px;
+}
+.c-card-body p,.c-card-body h6{
+    margin:1.3em
+}
+.c-img{
+    padding:1.01em;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    
+    background: rgba(240, 54, 76, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.c-card-img{
+}
+
+
+
+
+
 /*
         for phone 
 
