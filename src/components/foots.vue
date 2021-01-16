@@ -4,7 +4,7 @@
 
     
     <!-- Begin Footer -->
-    <footer>
+     <footer>
         <!--start div 11 -->
         <div class="container-fluid lastone">
             <div class="row">
@@ -41,22 +41,27 @@
                                 <a href="#"><i class="fab fa-facebook-f"></i></a>
                                 <a href="#"><i class="fab fa-linkedin-in"></i></a>
                                 <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="https://github.com/Skai-lab" target="__blank"><i class="fab fa-github"></i></a>
                             </div>
                         </div>
                         <div class="col-sm-6">
-                            <img class="f_logo" src="../../public/data/img//f_logo.svg" alt="Logo Of Skailab">
+                            <img class="f_logo" src="assets/img/f_logo.svg" alt="Logo Of Skailab">
                         </div>
                     </div>
 
                     <div class="row padd">
                         <div class="col-sm-4">
-                            <img class="center1" src="../../public/data/img//Group.png" alt="Silicon Valley Logo">
+                            <img class="center1" src="assets/img/Group.png" alt="Silicon Valley Logo">
+                        </div>
+                        <div class="col-sm-2">
+                            <img class="center1" src="assets/img/limitlesslogo.svg" alt="Limitless Logo">
                         </div>
                         <div class="col-sm-3">
-                            <img class="center1" src="../../public/data/img//limitlesslogo.svg" alt="Limitless Logo">
+                            <img class="center1" src="assets/img/univ.svg" alt="Skikda University">
                         </div>
-                        <div class="col-sm-4">
-                            <img class="center1" src="../../public/data/img//univ.svg" alt="Skikda University">
+
+                        <div class="col-sm-3">
+                            <img class="center1" src="assets/img/nokhab.png" alt="Nokhba aimen logo in skailab">
                         </div>
 
                     </div>
