@@ -3,7 +3,7 @@
     padding: 0px;
     box-sizing:border-box;
     font-size: 19px;
-    font-family: "Open Sans", sans-serif;
+    font-family:  sans-serif;
 
 }
 
@@ -191,15 +191,10 @@
 
 .the-video{
     width: 100%;
-    /* 
-        border: 1px solid black;
-        border-bottom: 2px solid black ;
-    */
 }
 
 
 
-/*  
 .videob .play-btn{
     background: rgb(252,64,101);
     padding: 1em;
@@ -251,10 +246,24 @@
     color:white;
     color:rgb(252,64,101);
     border: 0.5px solid;
-    /* outline:none;  / 
+    /* outline:none;  */ 
     cursor: pointer;
 }
-*/
+
+
+
+
+
+
+.wrapper{
+    display:table;
+    width:auto;
+    position:relative;
+    width:100%;
+}
+
+
+
 
 
 /**---------------- End video modifications ---------------*/

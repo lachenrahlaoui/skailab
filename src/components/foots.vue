@@ -4,7 +4,7 @@
 
     
     <!-- Begin Footer -->
-     <footer>
+    <footer>
         <!--start div 11 -->
         <div class="container-fluid lastone">
             <div class="row">
