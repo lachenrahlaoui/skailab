@@ -2,18 +2,18 @@
 
 /*  start modification button */
 
-$('.video').parent().click(function () {
-    if($(this).children(".video").get(0).paused){
-        $(this).children(".video").get(0).play();
+$('.the-video').parent().click(function () {
+    if($(this).children(".the-video").get(0).paused){
+        $(this).children(".the-video").get(0).play();
         $(this).children(".buttons").fadeOut();
     }else{
-    $(this).children(".video").get(0).pause();
+    $(this).children(".the-video").get(0).pause();
         $(this).children(".buttons").fadeIn();
     }
 
 });
 
-
+$('.the').hide();
 
 
 
