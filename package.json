@@ -10,8 +10,8 @@
   },
   "dependencies": {
     "core-js": "^3.6.5",
+    "jquery": "^3.5.1",
     "vue": "^3.0.0",
-    
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
@@ -33,7 +33,6 @@
     "prettier": "^1.19.1",
     "sass-loader": "^8.0.2",
     "typescript": "~3.9.3",
-    
     "vue-jest": "^5.0.0-0"
   }
 }

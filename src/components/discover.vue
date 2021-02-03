@@ -24,8 +24,8 @@
                 <div class="discover-video">
                     <section class="videob">
                         <div class="wrapper">
-                            <video class="the-video" poster="https://res.cloudinary.com/dbifps2yq/image/upload/v1608063156/Screen_Shot_2020-12-15_at_12.09.26_PM_jk1xy2.png">
-                                <source src="https://res.cloudinary.com/dbifps2yq/video/upload/v1608059970/ai-video_1_pj73ym.mp4"
+                            <video class="the-video" ><!-- poster="https://res.cloudinary.com/dbifps2yq/image/upload/v1608063156/Screen_Shot_2020-12-15_at_12.09.26_PM_jk1xy2.png"-->
+                                <source src = "C:\Users\Admin\Downloads\Video\Facebook.mp4"
                                     type="video/mp4" />
                             </video>
                             <div class="buttons">
